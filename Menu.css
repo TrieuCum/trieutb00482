@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Viet Nam Pro", sans-serif;
+}
+header{
+    position: relative;
+    background-image: url('Images/405191660_743834141119674_6870102610572364817_n.jpg');
+    background-size:100% 100%;
+    height:0px;
+    background-repeat: no-repeat;
+    padding-bottom:30%;
+}
+header .cap{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px orangered;
+    left: 10px;
+    bottom: 10px;
+}
+aside{
+    min-height:400px;
+    width:25%;
+    background-color:white;
+    float:right;
+}
+.vmenu{
+    padding:0px;
+    margin:5px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0 0 2px gray;
+}
+.vmenu a{
+    background: url(../Images/dot1.png)no-repeat 10px center;
+    display: block;
+    border-bottom: 1px solid orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url(../Images/dot2.png) no-repeat 10px center;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+}
+.menu>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:orangered;
+    text-align:center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:300px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+    text-align: left;
+}
+
+article{
+    width: 75%;
+    float: left;
+    background-color: wheat;
+    min-height: 1200px;
+}
+
+.menu ul ul a{
+    display:block;
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+    border-style:solid;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+footer{
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:lightcyan;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+
+aside h1{
+    text-align: center;
+    margin: 15px;
+    
+}
+header .login a{
+    width: 150px;
+    height: 30px;
+    background: orangered;
+    right: 1px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.login a:hover{
+    background-color: white;
+    color: orangered;
+}
+article .itcaption{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 20px;
+}
+.itcon p{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding-left: 20px;
+    top: 1px;
+}
+
+.itcon{
+    overflow: auto;
+    margin: 10px;
+}
+
+.itcon img{
+    float: left;
+    width: 250px;
+    border: 5px solid orangered;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.itcon h1{
+    margin-bottom: 8px;
+    color: orangered;
+    font-weight: 600;
+}
+
+.dmcon img{
+    margin-left: 100px; ;
+    margin-right: 100px;
+    border: 5px solid orangered;
+    border-radius: 30px;
+}
+
+.dmcon h1{
+    margin-left: 10px;
+    font-size: 40px;
+    margin-top: 20px;
+    color: orangered;
+    font-weight: 600;
+}
+
+.dmcon p{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article .home1{
+    display: inline-block;
+    flex: 1 1 25%;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 100px;
+    max-width: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.home1 img{
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+    width: 50px;
+}
+.home1 h1,
+.home1 p {
+    margin: 0;
+}
+article .line{
+    position: absolute;
+    margin-top: 175px;
+    content: '';
+    width: 75%;
+    height: 1px;
+    border-top: 3px solid black;
+}
+
+article .info{
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: auto;
+}
+
+.info h1{
+    color: orangered;
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.info img{
+    border: 3px solid orangered;
+    border-radius: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.info p{
+    width: 1100px;
+    font-size: 28px;
+    margin-left: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+aside .lienhe{
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.lienhe img{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lienhe h1{
+    font-size: 40px;
+}
+
+article .form{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    text-align: center;
+    padding-top: 20px;
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background: orangered;
+    color: white;
+}
+.form input{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.form textarea{
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+aside .map{
+    margin: 10px;
+    border: 4px solid black;
+}
+
+
